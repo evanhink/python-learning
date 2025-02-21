@@ -4,11 +4,11 @@ print("The area of a rectangle is calculated with Area = Length * Width.")
 #take the user's input to store a variable named length and width, then convert it
 #to floating point numbers with the float() function
 
-length = float(input("Enter length: "))
-width = float(input("Enter height: "))
+length = float(input("Enter length in centimeters: "))
+width = float(input("Enter heigh in centimeterst: "))
 
 
 #taking the user's input of length and width, multiplying them, then printing
 #the product with an f-string
 area = (length * width)
-print(f"The area of your rectangle is {area} units.")
+print(f"The area of your rectangle is {area}c cm².")
